@@ -1,7 +1,7 @@
 package com.lambdaschool.foodtrucktrackr.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lambdaschool.foodtrucktrackr.FoundationApplicationTesting;
+import com.lambdaschool.foodtrucktrackr.FoodTruckTrackrApplicationTesting;
 import com.lambdaschool.foodtrucktrackr.models.Role;
 import com.lambdaschool.foodtrucktrackr.models.User;
 import com.lambdaschool.foodtrucktrackr.models.UserRoles;
@@ -45,7 +45,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WithMockUser(username = "admin",
     roles = {"USER", "ADMIN"})
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
-    classes = FoundationApplicationTesting.class,
+    classes = FoodTruckTrackrApplicationTesting.class,
     properties = {
         "command.line.runner.enabled=false"})
 @AutoConfigureMockMvc

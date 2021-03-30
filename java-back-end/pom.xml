@@ -112,7 +112,7 @@
     </dependencies>
 
     <build>
-        <finalName>jrmmba-foundation</finalName>
+        <finalName>tt-webft-39-foodtrucktrackr</finalName>
 
         <plugins>
             <plugin>

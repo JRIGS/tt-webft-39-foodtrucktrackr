@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 @SpringBootApplication
 @PropertySource(value = "file:/Users/Jonathan/web39foodtrucktrackrconfig.properties", ignoreResourceNotFound = true)
-public class FoundationApplication
+public class FoodTruckTrackrApplication
 {
     /**
      * Connect to the system environment where environment variables live.
@@ -53,7 +53,7 @@ public class FoundationApplication
 
         if (!stop)
         {
-            SpringApplication.run(FoundationApplication.class,
+            SpringApplication.run(FoodTruckTrackrApplication.class,
                 args);
         } else
         {

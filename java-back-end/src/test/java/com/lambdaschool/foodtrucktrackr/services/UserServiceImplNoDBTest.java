@@ -1,6 +1,6 @@
 package com.lambdaschool.foodtrucktrackr.services;
 
-import com.lambdaschool.foodtrucktrackr.FoundationApplicationTesting;
+import com.lambdaschool.foodtrucktrackr.FoodTruckTrackrApplicationTesting;
 import com.lambdaschool.foodtrucktrackr.exceptions.ResourceNotFoundException;
 import com.lambdaschool.foodtrucktrackr.models.Role;
 import com.lambdaschool.foodtrucktrackr.models.User;
@@ -26,7 +26,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = FoundationApplicationTesting.class,
+@SpringBootTest(classes = FoodTruckTrackrApplicationTesting.class,
     properties = {
         "command.line.runner.enabled=false"})
 public class UserServiceImplNoDBTest
