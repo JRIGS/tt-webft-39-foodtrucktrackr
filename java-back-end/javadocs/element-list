@@ -1,8 +1,8 @@
-com.lambdaschool.foundation
-com.lambdaschool.foundation.config
-com.lambdaschool.foundation.controllers
-com.lambdaschool.foundation.exceptions
-com.lambdaschool.foundation.handlers
-com.lambdaschool.foundation.models
-com.lambdaschool.foundation.repository
-com.lambdaschool.foundation.services
+com.lambdaschool.foodtrucktrackr
+com.lambdaschool.foodtrucktrackr.config
+com.lambdaschool.foodtrucktrackr.controllers
+com.lambdaschool.foodtrucktrackr.exceptions
+com.lambdaschool.foodtrucktrackr.handlers
+com.lambdaschool.foodtrucktrackr.models
+com.lambdaschool.foodtrucktrackr.repository
+com.lambdaschool.foodtrucktrackr.services
