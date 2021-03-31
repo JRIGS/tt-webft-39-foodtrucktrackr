@@ -92,9 +92,9 @@ public class SeedData
         userService.save(u1);
 
         // data, user
-        User u2 = new User("cinnamon",
-            "1234567",
-            "cinnamon@lambdaschool.local");
+        User u2 = new User("data",
+            "data",
+            "data@lambdaschool.local");
         u2.getRoles()
             .add(new UserRoles(u2,
                 r2));
@@ -113,9 +113,9 @@ public class SeedData
         userService.save(u2);
 
         // user
-        User u3 = new User("barnbarn",
-            "ILuvM4th!",
-            "barnbarn@lambdaschool.local");
+        User u3 = new User("user",
+            "user",
+            "user@lambdaschool.local");
         u3.getRoles()
             .add(new UserRoles(u3,
                 r2));
